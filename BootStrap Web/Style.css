@@ -1,0 +1,119 @@
+.navbar {
+    border-bottom: 2px solid #1886c7;
+}
+
+a {
+    text-transform: uppercase;
+}
+
+.nav-link {
+    border: 1px solid white;
+    border-radius: 50px;
+    /*Üzerine gelince 5sn gec color yap*/
+    transition: color .5s ease;
+}
+
+.nav-link:hover {
+    color: #1886c7 !important;
+}
+
+#headerSection {
+    background-image: url(/İmages/photo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, .7);
+}
+
+#headerSection .row {
+    height: 100vh;
+}
+
+#ourHistory h3 {
+    border-left: 6px solid #1886c7;
+    padding-left: 30px;
+}
+
+#ourHistory p {
+    line-height: 25px;
+}
+
+.card {
+    border-radius: 50px;
+}
+
+.card-body {
+    cursor: pointer;
+}
+
+.card-two {
+    border-radius: 50px;
+}
+
+.jumbotron {
+    border-radius: 50px;
+    border: 3px solid black;
+    margin-right: -50px;
+}
+
+
+
+#caseStudt h3 {
+    border-left: 3px solid rebeccapurple;
+    border-right: 3px solid rebeccapurple;
+}
+
+#caseStudt img {
+    border-radius: 50px;
+}
+
+#caseStudt img:hover {
+    transform: rotate(-10deg);
+}
+
+
+.card-body:hover {
+    background-color: gray;
+    border-radius: 50px;
+}
+
+#whatWeDo {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+        url(/İmages/code.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imageContainer img {
+    background-color: skyblue;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+
+.imageContainer:hover img {
+    transform: translate(-50px, -100px);
+    -webkit-transform: translate(-50px, -100px);
+}
+
+#portfolio h4 {
+    border-bottom: 2px solid wheat;
+    width: 200px;
+}
+
+#portfolio:hover h4 {
+    color: skyblue !important;
+}
+
+#contact h4 {
+    border-left: 2px solid rebeccapurple;
+}
+
+#team h4 {
+    border-bottom: 2px solid black;
+}
